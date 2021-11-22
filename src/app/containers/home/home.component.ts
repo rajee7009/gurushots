@@ -79,7 +79,7 @@ export class HomeComponent implements OnInit, AfterViewInit {
   }
 
   pinSecondRow() {
-    new ScrollMagic.Scene({ triggerElement: '.second', duration: window.innerHeight / 2, offset: window.innerHeight / 2.4 })
+    new ScrollMagic.Scene({ triggerElement: '.second', duration: window.innerHeight / 1, offset: window.innerHeight / 2.4 })
       .setPin('.second')
       .addTo(this.ctrl);
   }
